@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectwithintents">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/android_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/android_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MyVocationalStudies2Activity"
+            android:label="@string/title_activity_my_vocational_studies2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <service
+            android:name=".MyService2"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".MyVocationalStudiesActivity"
+            android:label="@string/title_activity_my_vocational_studies"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyIntentsActivity"
+            android:label="@string/title_activity_my_intents"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyServicesActivity"
+            android:label="@string/title_activity_my_services"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".MyService" />
+
+        <receiver android:name=".MyBroadcastReceiver" />
+    </application>
+
+</manifest>

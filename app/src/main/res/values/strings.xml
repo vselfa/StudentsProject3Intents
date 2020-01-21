@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Project With Intents</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">My students project 3: Intents</string>
+    <string name="home">Home</string>
+    <string name="intents">My intents for result</string>
+    <string name="Services">My services</string>
+    <string name="broadcast">My broadcast</string>
+    <string name="title_activity_my_services">My Services Activity</string>
+    <string name="startService">Start music</string>
+    <string name="stopService">Stop music</string>
+    <string name="clickOnButton">Click on a button</string>
+    <string name="title_activity_my_intents">My Intents Activity</string>
+    <string name="Intents">My intents for result</string>
+    <string name="title_activity_my_vocational_studies">My Vocational Studies Activity</string>
+    <string name="choosing_options">Choose one or more options</string>
+    <string name="comeBack">Come back</string>
+    <string name="subjectsSelected">You have selected:</string>
+    <string name="prefered_subjects">My preferred vocational studies</string>
+    <string name="title_activity_my_vocational_studies2">MyVocationalStudies2Activity</string>
+    <string name="intents2">Intents with BaseAdapter</string>
+    <string name="showElements">Show selected elements</string>
+</resources>
